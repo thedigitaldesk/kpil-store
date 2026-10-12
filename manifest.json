@@ -5,7 +5,7 @@
  "start_url": "./index.html",
  "scope": "./",
  "display": "standalone",
- "orientation": "portrait",
+ "orientation": "any",
  "background_color": "#063B6E",
  "theme_color": "#063B6E",
  "icons": [
@@ -26,6 +26,57 @@
    "sizes": "512x512",
    "type": "image/png",
    "purpose": "maskable"
+  }
+ ],
+ "id": "./index.html",
+ "lang": "en",
+ "categories": [
+  "business",
+  "productivity"
+ ],
+ "display_override": [
+  "standalone",
+  "minimal-ui"
+ ],
+ "shortcuts": [
+  {
+   "name": "Sticker",
+   "short_name": "Sticker",
+   "description": "Create and print material tags",
+   "url": "./index.html?tab=sticker",
+   "icons": [
+    {
+     "src": "icon-192.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  },
+  {
+   "name": "Scanner",
+   "short_name": "Scanner",
+   "description": "Scan and count stock",
+   "url": "./index.html?tab=scanner",
+   "icons": [
+    {
+     "src": "icon-192.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  },
+  {
+   "name": "Merge",
+   "short_name": "Merge",
+   "description": "Compare counts with the master list",
+   "url": "./index.html?tab=merge",
+   "icons": [
+    {
+     "src": "icon-192.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
   }
  ]
 }
