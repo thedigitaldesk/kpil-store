@@ -77,6 +77,19 @@
      "type": "image/png"
     }
    ]
+  },
+  {
+   "name": "Issue",
+   "short_name": "Issue",
+   "description": "Issue material slip-wise",
+   "url": "./index.html?tab=issue",
+   "icons": [
+    {
+     "src": "icon-192.png",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
   }
  ]
 }
