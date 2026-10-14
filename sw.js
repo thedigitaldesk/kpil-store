@@ -1,4 +1,4 @@
-const C='kpil-store-ver5';
+const C='kpil-store-ver6';
 const FILES=['./','index.html','manifest.json','icon-192.png','icon-512.png'];
 self.addEventListener('install',e=>{
   e.waitUntil(caches.open(C).then(c=>Promise.all(FILES.map(f=>c.add(f).catch(()=>{})))).then(()=>self.skipWaiting()));
